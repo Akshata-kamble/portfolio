@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshata's - Portfolio</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <i class="fas fa-code"></i>
+                    <span>Akshata's Portfolio</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">
+                        <i class="fas fa-folder"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Akshata Kamble</span>
+                </h1>
+                <h2 class="hero-subtitle">Software Engineering Student
+                </h2>
+                <p class="hero-description">
+                    I’m a B.Tech Computer Science and Business System Engineering student passionate about learning and problem-solving.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="img.jpg" alt="Profile Image" class="profile-img" width="800" height="800" loading="eager" fetchpriority="high">
+                        <div class="profile-overlay">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <!-- <div class="profile-badge">
+                        <i class="fas fa-star"></i>
+                        <span>Available for Work</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I find joy in tackling complex problems and turning ideas into impactful solutions. Certain skills that I’ve worked with include Data Structures and Algorithms (Java), Web Development (HTML, CSS, MySQL), and I'm constantly striving to expand my technical toolkit.                    </p>
+                    <p>
+                        Outside of tech, I’m a tea lover with a deep love for music, and I enjoy unwinding through melodies. Exploring new ideas, staying curious, and always learning—that’s what keeps me going.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <p>Curious</p>
+                           
+                        </div>
+                        <div class="stat">
+                            <p>Creative</p>
+                           
+                        </div>
+                        <div class="stat">
+                            <p>Determined</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code </span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>PyCharm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Quiz Application</h3>
+                        <p>Quiz Application with Leaderboard using Advanced Java (JDBC, Servlets) and MySQL, featuring user authentication, secure login, and real-time scoring.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                        </div>
+                        <video width="300" controls>
+                            <source src="quiz app.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                          
+                          <br><br>
+                          
+                        <div class="project-links">
+                            <a href="quiz app.mp4" target="_blank" class="btn btn-small btn-view-demo">View Demo</a>
+                            <a href="https://github.com/Akshata-kamble/desktop-Application.git" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>A Book Application for Kids using Python Tkinter!</h3>
+                        <p>Interactive Book Application for Kids using Python Tkinter, featuring a colorful UI, storybooks with images, and a simple design for young readers.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Tkinter</span>
+                        </div>
+                            <video width="300" controls>
+                                <source src="story app.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+
+                        <div class="project-links">
+                            <a href="story app.mp4" target="_blank" class="btn btn-small btn-view-demo">View Demo</a>
+                            <a href="https://github.com/Akshata-kamble/tkinter-story_book-application.git" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>School Web Application</h3>
+                        <p>A responsive and modern school website designed using HTML, CSS, JavaScript, and Bootstrap. This project includes sections like Home, About, Courses, Gallery, and Contact, making it ideal for showcasing school information in a professional and user-friendly format.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <video width="300" controls>
+                            <source src="school.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                        <div class="project-links">
+                            <a href="school.mp4" target="_blank" class="btn btn-small btn-view-demo">View Demo</a>
+                            <a href="https://github.com/Akshata-kamble/school-web-app.git" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>akshatakamble102004@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>7385592127</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Pune,Maharashtra, India </span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Akshata-kamble" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/akshata-kamble-625473340/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary custom-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Akshata Kamble. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
