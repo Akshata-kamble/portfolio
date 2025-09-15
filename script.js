@@ -112,6 +112,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+    // Certifications carousel controls
+    const certTrack = document.getElementById('cert-track');
+    const certPrev = document.querySelector('.cert-prev');
+    const certNext = document.querySelector('.cert-next');
+    if (certTrack && certPrev && certNext) {
+        const scrollByAmount = () => Math.min(320, certTrack.clientWidth * 0.9);
+        certPrev.addEventListener('click', () => {
+            certTrack.scrollBy({ left: -scrollByAmount(), behavior: 'smooth' });
+        });
+        certNext.addEventListener('click', () => {
+            certTrack.scrollBy({ left: scrollByAmount(), behavior: 'smooth' });
+        });
+    }
 });
 
 // Form submission handling
